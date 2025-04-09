@@ -3,9 +3,74 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
-    <title>Boilerplate</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CSS Selectors Example</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="/assets/css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <p>This is a paragraph.</p>
+    <p>Another paragraph.</p>
+    <p>Yet another paragraph.</p>
+
+    <input type="text" placeholder="Enter text here" />
+    <input type="text" />
+    <input type="password" placeholder="Enter password" />
+    <input type="password" />
+    <a href="https://example.com" target="_blank">Visit Example</a>
+    <a href="https://example.com" target="_blank">Visit Example</a>
+    <a href="https://example.com">Visit Example</a>
+
+    <div class="highlight">Highlighted text</div>
+    <p class="highlight">Another Highlighted text</p>
+    <p class="highlight">Yet Another Highlighted text</p>
+    <span class="highlight">Yet Yet Another Highlighted text</span>
+
+    <p id="unique">This is a unique paragraph.</p>
+
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+
+    <ul>
+      <li>List item 1</li>
+      <li>List item 2</li>
+      <li>List item 3</li>
+    </ul>
+    <div class="text">
+      <p>This is a paragraph inside a div. <span>Italicized text.</span></p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div>
+      <p>Direct child paragraph.</p>
+      <div>
+        <p>Nested paragraph.</p>
+      </div>
+    </div>
+
+    <h4>Sibling Selector Example</h4>
+    <div class="headingFourText">
+      <p>Sibling paragraph 1.</p>
+      <p>Sibling paragraph 2.</p>
+    </div>
+
+    <h3>Adjacent Selector Example</h3>
+    <p class="headingthreeText">Directly adjacent paragraph.</p>
+
+    <div>
+      <a target="_blank">Target blank link under div</a>
+    </div>
+  </body>
 </html>
