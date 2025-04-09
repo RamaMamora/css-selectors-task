@@ -4,16 +4,19 @@
   box-sizing: border-box;
 }
 p,
-input,
+input[type="text"],
 input::placeholder {
   color: blue;
 }
 
-a {
+a[target="_blank"] {
   color: red;
 }
 
 .highlight {
+  background-color: yellow;
+}
+.highlight p {
   background-color: yellow;
 }
 #unique {
@@ -33,6 +36,10 @@ li {
 .text {
   color: blue;
 }
+nav ul li a {
+  color: rgb(222, 90, 196);
+}
+
 .headingFourText p {
   color: gray;
 }
